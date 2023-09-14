@@ -13,3 +13,18 @@ dependencies = []
 
 [project.scripts]
 pt = "platform_tester.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "black==22.12.0",
+    "flake8==5.0.4",
+    "flake8-bugbear==22.12.6",
+    "Flake8-pyproject",
+    "isort",
+    "json5",
+    "pep8-naming==0.13.3", 
+    "blur-blurdev",
+    "blur-trax",
+    "blur-studio",
+    "Qt.py",
+]
